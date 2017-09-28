@@ -14,4 +14,3 @@ for s in stopwords:
         text = re.sub(s, '*'*len(s), text)
         
 print(text)
-#print(re.sub('({})'.format('|'.join(stopwords)), '*', text))
